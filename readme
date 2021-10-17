@@ -1,1 +1,20 @@
-Comment ajouter de l'Urgence GRATUITEMENT sur une fiche produit Shopify
+CODE A METTRE A DEUX ENDROITS : PAGE D'ACCEUIL ET PAGE PRODUIT 
+
+
+PAGE D'ACCEUIL: aller dans le code -> section -> featured-product.liquid
+
+Mettre le bout de code ligne 163 entre les deux commentaire en gris 
+
+<!-- ENDROIT OU METTRE LE CODE POUR TIMER ET STOCK -->
+          ICI
+          
+          <!-- FIN DU CODE TIMER ET STOCK -->
+
+PAGE PRODUIT: aller dans le code -> snippets -> product-template.liquid
+
+Mettre le bout de code ligne 226 entre les deux commentaire en gris 
+
+<!-- ENDROIT OU METTRE LE CODE POUR TIMER ET STOCK -->
+          ICI
+          
+          <!-- FIN DU CODE TIMER ET STOCK -->
